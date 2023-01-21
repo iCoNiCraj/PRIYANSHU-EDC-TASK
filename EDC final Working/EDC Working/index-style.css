@@ -1,0 +1,179 @@
+html{
+    scroll-behavior: smooth;
+    /* overflow: hidden; */ /* TO REMOVE THE EXTRA WHITESPACE*/
+  }
+  body{
+    width: 100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    border-bottom:1px solid transparent;/*added to remove whitespace*/
+    background: #fff;
+    color: #666666; /* COLOR OF THE WHOLE BODY OF THE PAGE*/
+    font-family: "Open Sans", sans-serif;/* handwriting style of the whole body of page*/
+  }
+  
+  .home-section{
+    height: 58rem;
+    width: auto;
+    position: relative; /* PARENT HAS POSITION - RELATIVE AND ITS CHILD ARE SET TO POSITION ABSOLUTE BEACUSE WITH RESPECT TO PARENT POSITION , ITS CHILD SHOULD BE PLACED*/
+    background-image: url('./images/backgroundSectionHome.jpeg');
+    background-size: cover;
+    /* opacity:0.5; */ /* FOR MAKING BACKGROUND TRANSPARENT*/
+    overflow-x: hidden;
+  }
+  
+  .logo{
+    display: inline-block;
+    position: absolute;
+    height: 15rem;
+    width: 22rem;
+    left: 18px; /* left : space to leave from left of the parent item*/
+    /* border:2px solid black; */
+  }
+  .logo img{
+    height:100%;
+    width:100%;
+  }
+
+  a{
+    text-decoration: none; /* not to have link default colour as blue and underline */
+    font-family: "sans-serif";
+    color: white;/*color of the text written*/
+    padding-bottom: 15px;
+  }
+
+  .nav_bar{
+    width:100%;
+    height: 6rem;
+    position: relative;
+    top: 5px;
+    padding-bottom: 2vw;
+    /* border: 1px solid red; */
+  
+  }
+  .nav_bar ul{
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    top: 6vh;
+    left: 40%;
+    font-size: 1.2rem;
+  }
+  /* .nav_bar a{
+    text-decoration: none;
+    font-family: "sans-serif";
+    color: white;
+    padding-bottom: 15px;
+  } */
+  
+  .nav_tab {
+    display: inline;
+    padding: 0.7vw;
+    text-align: center;
+    color:   #06d6a0
+  }
+  .nav_tab div{
+    display: inline;/* to display without bullet list icon*/
+  }
+  .nav_tab:hover{ /* when cursor moves to that item, it should have given color and border*/
+    border: none;
+    border-left: 2px solid #277c48;/*only left border of rectangle box should be visible*/
+    border-radius: 3px;/* weight/width of border*/
+  }
+  
+  #center-text-h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 3px;/* space between different letters of a word in a sentence*/ 
+  }
+  #center-text-body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2rem;
+    color:white;
+    position: relative;
+    left: 20%;
+  }
+  .outer-div{
+    width: 100%;
+    height: 6rem;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    padding-bottom: 2vw;
+  }
+  
+  
+  
+  /*footer section css starts*/
+  .footer-index{
+    background-color: black;
+    height:30rem;
+    border: 2px brown solid ;
+  }
+  .footer-1{
+    position:relative;
+    height:37vh;
+    /* width: 100%; */
+    /* background-image: url('./images/footer-bg.png'); */
+    /* background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    top: 5vh;
+    border: 2px solid  blue;
+  }
+  .footer-text{
+    position: absolute;
+    top: 4vh;
+    left: 5vw;
+    height: 27vh;
+    width: 90%;
+    border:2px solid yellow;
+  }
+  .left-footer-text{
+    border: 2px solid green;
+    position: absolute;
+    left: 1vw;
+    top: 1vh;
+    height: 24vh;
+    width: 25vw;
+  }
+  .mid-footer-text{
+    border: 2px solid violet;
+    position: absolute;
+    left: 32vw;
+    top: 1vh;
+    height: 24vh;
+    width: 25vw;
+  }
+  .right-footer-text{
+    border:2px solid aliceblue;
+    position: absolute;
+    right: 1vw;
+    top: 1vh;
+    height: 24vh;
+    width: 25vw;
+  }
+  .titleUsefulLink{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color:white;
+    /* text-align: center; */
+    /* border:2px solid greenyellow; */
+  }
+  .nav_tab_footer {
+    display: inline;
+    padding: 0.7vw;
+    text-align: right;
+    color:   #06d6a0;
+    /* border:2px solid greenyellow; */
+  }
+  /* footer section css ends */
+
+  /* Height attributes should have properties mentioned in vh or rem or px,
+    Width attributes should have properties mentioned in vw or rem or px,
+    vh : view height, vw : view width */
+  /* Adding border to each div( division) helps us to view the meaning of the properties, its function and decide where the objects should be placed*/
+  /* To add styling to a tag : directly write tagname{}.
+    To add styling to a tag having class : write .classname{}
+    To add styling to a tag having id : write #idname{}  */
