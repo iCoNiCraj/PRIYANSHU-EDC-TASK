@@ -57,7 +57,7 @@ html{
     display: inline-block;
     position: absolute;
     top: 6vh;
-    left: 40%;
+    left: 35%;
     font-size: 1.2rem;
   }
   /* .nav_bar a{
@@ -100,8 +100,21 @@ html{
     height: 6rem;
     position: relative;
     top: 40%;
-    left: 30%;
+    left: 25%;
     padding-bottom: 2vw;
+  }
+
+  .about-us-button{
+    font-family: "Open Sans", sans-serif;
+    display:block;
+    height: 44px;
+    width: 120px;
+    border-radius: 43%;
+    position: absolute;
+    left: 23vw;
+    background-color:#06d6a0 ;
+    color:#fff;
+    /*border: 1px solid red;*/
   }
   
   
@@ -110,7 +123,7 @@ html{
   .footer-index{
     background-color: black;
     height:30rem;
-    border: 2px brown solid ;
+    /*border: 2px brown solid ;*/
   }
   .footer-1{
     position:relative;
@@ -120,7 +133,7 @@ html{
     /* background-size: 100% 100%;
     background-repeat: no-repeat; */
     top: 5vh;
-    border: 2px solid  blue;
+    /*border: 2px solid  blue;*/
   }
   .footer-text{
     position: absolute;
@@ -128,10 +141,10 @@ html{
     left: 5vw;
     height: 27vh;
     width: 90%;
-    border:2px solid yellow;
+    /*border:2px solid yellow;*/
   }
   .left-footer-text{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     position: absolute;
     left: 1vw;
     top: 1vh;
@@ -139,7 +152,7 @@ html{
     width: 25vw;
   }
   .mid-footer-text{
-    border: 2px solid violet;
+    /*border: 2px solid violet;*/
     position: absolute;
     left: 32vw;
     top: 1vh;
@@ -147,7 +160,7 @@ html{
     width: 25vw;
   }
   .right-footer-text{
-    border:2px solid aliceblue;
+    /*border:2px solid aliceblue;*/
     position: absolute;
     right: 1vw;
     top: 1vh;
